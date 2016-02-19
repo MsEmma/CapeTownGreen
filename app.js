@@ -1,3 +1,4 @@
+//Emma's Taxi
 
 //find the body tag and store it in a variable called 'body'
 var body = document.querySelector("body");
