@@ -84,7 +84,7 @@ describe("TrafficLight", function(){
 
     });
 
-    it("makeOrange should make the trafficLight orange", function(){
+    it("makeRed should make the trafficLight orange", function(){
         var tl = new TrafficLight(1);
         tl.makeRed();
 
@@ -96,7 +96,7 @@ describe("TrafficLight", function(){
 
     });
 
-    it("makeRed should make the trafficLight red", function(){
+    it("makeOrange should make the trafficLight red", function(){
         var tl = new TrafficLight(1);
         tl.makeOrange();
 
@@ -108,15 +108,4 @@ describe("TrafficLight", function(){
 
     });
 
-});
-
-describe("The taxi", function(){
-
-    it("should stop", function(){
-        assert.equal(1,2);
-    });
-
-    it("should go", function(){
-        assert.equal(1,2);
-    });
 });

@@ -12,6 +12,12 @@ For that we are going to create a constructor function / class to control Traffi
 
 To change the traffic lights we need to add and remove classes to/from the `robot` element using [`classList`](https://docs.webplatform.org/wiki/dom/Element/classList).
 
+## Create a function
+
+Create a function similar to `createLocationClass` called `createTrafficLightClass`. It should take a number as a parameter and return a string such as `.one-of-nine`.
+
+## A TrafficLight with class
+
 Our traffic light constructor function should have these functions:
 
   function name | functionality                                                              |
@@ -22,8 +28,6 @@ Our traffic light constructor function should have these functions:
 `color`         | return the current color of the traffic light based on the internal state
 
 It should take a number as a parameter, which should be the current value of `taxiLocationCounter`.
-
-Create a function similar to `createLocationClass` called `createTrafficLightClass`. It should take a number as a parameter and return a string such as `.one-of-nine`.
 
 The classes for each color are:
 
